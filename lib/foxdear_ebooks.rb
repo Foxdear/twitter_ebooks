@@ -14,9 +14,9 @@ module Ebooks
   INTERIM = :interim
 end
 
-require 'twitter_ebooks/nlp'
-require 'twitter_ebooks/archive'
-require 'twitter_ebooks/sync'
-require 'twitter_ebooks/suffix'
-require 'twitter_ebooks/model'
-require 'twitter_ebooks/bot'
+require 'foxdear_ebooks/nlp'
+require 'foxdear_ebooks/archive'
+require 'foxdear_ebooks/sync'
+require 'foxdear_ebooks/suffix'
+require 'foxdear_ebooks/model'
+require 'foxdear_ebooks/bot'

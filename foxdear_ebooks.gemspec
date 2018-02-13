@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/twitter_ebooks/version', __FILE__)
+require File.expand_path('../lib/foxdear_ebooks/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.required_ruby_version = '~> 2.1'
