@@ -1,8 +1,8 @@
 # twitter\_ebooks
 
 [![Gem Version](https://badge.fury.io/rb/foxdear_ebooks.svg)](http://badge.fury.io/rb/foxdear_ebooks)
-[![Build Status](https://travis-ci.org/mispy/foxdear_ebooks.svg)](https://travis-ci.org/mispy/foxdear_ebooks)
-[![Dependency Status](https://gemnasium.com/mispy/foxdear_ebooks.svg)](https://gemnasium.com/mispy/foxdear_ebooks)
+[![Build Status](https://travis-ci.org/foxdear/foxdear_ebooks.svg)](https://travis-ci.org/foxdear/foxdear_ebooks)
+[![Dependency Status](https://gemnasium.com/foxdear/foxdear_ebooks.svg)](https://gemnasium.com/foxdear/foxdear_ebooks)
 
 A framework for building interactive twitterbots which respond to mentions/DMs. See [ebooks_example](https://github.com/mispy/ebooks_example) for a fully-fledged bot definition.
 
