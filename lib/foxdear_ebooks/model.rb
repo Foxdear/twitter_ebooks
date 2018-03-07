@@ -101,7 +101,7 @@ module Ebooks
     def initialize
       @tokens = []
       @banned_words_file ||= 'banned_words.txt'
-      @banned_words ||= File.exists?(@banned_words_file) ? File.read(@banned_words_file).split : []
+      @banned_words ||= File.exists?(@banned_words_file) ? File.read(@banned_words_file).split("\n") : []
       # Reverse lookup tiki by token, for faster generation
       @tikis = {}
     end
@@ -125,7 +125,7 @@ module Ebooks
       return if @banned_words_file == path
       @banned_words_file = path
       if File.exists?(@banned_words_file)
-        @banned_words = File.read(@banned_words_file).split
+        @banned_words = File.read(@banned_words_file).split("\n")
         log "Successfully loaded banned words list #{path}"
       else
         log "Error: Banned words list #{path} does not exist"
